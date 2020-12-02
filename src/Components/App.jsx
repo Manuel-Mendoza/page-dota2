@@ -1,8 +1,14 @@
 import React from 'react';
+/* Pages */
+import Index from '../Pages/index'
+/* Componentes */
+
 
 function App(){
     return(
-        <h1>Hola Dota2</h1>
+        <React.StrictMode>
+            <Index />   
+        </React.StrictMode>
     )
 }
 

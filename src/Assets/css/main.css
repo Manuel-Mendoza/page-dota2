@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* MAIN */
+/* Estilos Diseñado por: J' Manuel C' Mendoza */
+/* https://github.com/Manuel-Mendoza */
+/* Variables y Mixing */
+/* Tipografías */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Open+Sans:wght@300&display=swap");
+/* Colores */
+/* Pages */
+.Index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.Index .index_login {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Index .index_login input {
+  text-align: center;
+  font-size: 1.4em;
+  border-radius: 50px;
+  background: #5D5179;
+  height: 70px;
+  width: 339px;
+  border: 2px solid whitesmoke;
+  outline: none;
+}
+.Index .index_login input[type=number]::-webkit-inner-spin-button,
+.Index .index_login input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.Index .index_login button {
+  margin-top: 15%;
+  background: #3DA4B3;
+  border: none;
+  border-radius: 20px;
+  padding: 2% 4%;
+  font-size: 20px;
+  outline: none;
+  font-family: "Arimo", sans-serif;
+}
+
+/* Otras Ediciones */
+* {
+  color: white;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+body {
+  background: #5D3B58;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arimo", sans-serif;
+}
